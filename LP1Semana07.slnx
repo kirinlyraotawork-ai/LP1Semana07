@@ -1,2 +1,6 @@
 <Solution>
+  <Project Path="ColorSpheres/ColorSpheres.csproj" />
+  <Project Path="PlayerStats/PlayerStats.csproj" />
+  <Project Path="PowerCell/PowerCell.csproj" />
+  <Project Path="Testing/Testing.csproj" />
 </Solution>
