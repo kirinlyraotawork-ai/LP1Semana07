@@ -8,11 +8,15 @@ namespace PowerCell
 {
     public class Cell
     {
+
+//- _charge : float
         private float _charge;
         //private string _character;
 
-
+// + Name : string
         public string Name { get; }
+
+//constructor
         public Cell(string name)
 
         {
@@ -26,6 +30,7 @@ namespace PowerCell
             Name = name;
         }*/
         
+// + Charge : float
         public float Charge
         {
             get => _charge;
@@ -42,20 +47,21 @@ namespace PowerCell
                 }
             }
         }
+//+Level : int
         public int Level => 1 + (int)_charge / 40;
 
     
-
+//+Consume(float amount)
         public void Consume(float amount)
         {
             _charge -= amount;
         }
-
+//+Restore(void)
         public void Restore()
         {
             _charge = 200;
         }
-
+// +Tostring(string)
         public override string ToString()
 {
     return $"[{Name}] Level {Level}: {_charge}/200";

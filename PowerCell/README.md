@@ -10,7 +10,7 @@ classDiagram
         
         +Consume(float amount)
         +Restore(void)
-        +ToString(string)
+        +ToString():string
     } 
     
 
