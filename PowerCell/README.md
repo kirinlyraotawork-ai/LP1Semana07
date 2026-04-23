@@ -8,9 +8,11 @@ classDiagram
         
         
         
-        +Consume(float amount)
-        +Restore(void)
-        +ToString():string
+        +Consume(float amount) void
+        +Restore() void
+        +ToString() string
+
+        
     } 
     
 
